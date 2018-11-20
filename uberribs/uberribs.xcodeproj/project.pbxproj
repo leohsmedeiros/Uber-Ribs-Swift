@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72DFCEC21A41F1800B7AB65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72DFCEB21A41F1800B7AB65 /* Default-568h@2x.png */; };
+		A72DFCEE21A41F4700B7AB65 /* RootComponent+LoggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFCED21A41F4700B7AB65 /* RootComponent+LoggedOut.swift */; };
+		A73A0E8D21A31DEF00EC7844 /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E8921A31DEF00EC7844 /* LoggedOutBuilder.swift */; };
+		A73A0E8E21A31DEF00EC7844 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E8A21A31DEF00EC7844 /* LoggedOutInteractor.swift */; };
+		A73A0E8F21A31DEF00EC7844 /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E8B21A31DEF00EC7844 /* LoggedOutRouter.swift */; };
+		A73A0E9021A31DEF00EC7844 /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E8C21A31DEF00EC7844 /* LoggedOutViewController.swift */; };
+		A73A0E9621A342AD00EC7844 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9221A342AD00EC7844 /* RootBuilder.swift */; };
+		A73A0E9721A342AD00EC7844 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9321A342AD00EC7844 /* RootInteractor.swift */; };
+		A73A0E9821A342AD00EC7844 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9421A342AD00EC7844 /* RootRouter.swift */; };
+		A73A0E9921A342AD00EC7844 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9521A342AD00EC7844 /* RootViewController.swift */; };
+		A73A0E9C21A344B200EC7844 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9B21A344B200EC7844 /* AppComponent.swift */; };
+		A741229F21A3139A000FDA08 /* Pods_uberribs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E2816E651C94A3C7AB8701 /* Pods_uberribs.framework */; };
+		A7CB903D219F40E700AC8220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB903C219F40E700AC8220 /* AppDelegate.swift */; };
+		A7CB9052219F40F200AC8220 /* uberribsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB9051219F40F200AC8220 /* uberribsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CB904E219F40F200AC8220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CB9031219F40E700AC8220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CB9038219F40E700AC8220;
+			remoteInfo = uberribs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11E2816E651C94A3C7AB8701 /* Pods_uberribs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uberribs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F08970CDD95F82E43F434C6 /* Pods-uberribs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberribs.release.xcconfig"; path = "Target Support Files/Pods-uberribs/Pods-uberribs.release.xcconfig"; sourceTree = "<group>"; };
+		A711E7A721A318A300267D34 /* RIBs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RIBs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DFCEB21A41F1800B7AB65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A72DFCED21A41F4700B7AB65 /* RootComponent+LoggedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedOut.swift"; sourceTree = "<group>"; };
+		A73A0E8921A31DEF00EC7844 /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		A73A0E8A21A31DEF00EC7844 /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
+		A73A0E8B21A31DEF00EC7844 /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		A73A0E8C21A31DEF00EC7844 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		A73A0E9221A342AD00EC7844 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		A73A0E9321A342AD00EC7844 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		A73A0E9421A342AD00EC7844 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		A73A0E9521A342AD00EC7844 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A73A0E9B21A344B200EC7844 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		A7677D8821A2F90C00E14096 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		A7CB9039219F40E700AC8220 /* uberribs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uberribs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CB903C219F40E700AC8220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7CB9048219F40F200AC8220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CB904D219F40F200AC8220 /* uberribsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uberribsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CB9051219F40F200AC8220 /* uberribsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uberribsTests.swift; sourceTree = "<group>"; };
+		A7CB9053219F40F200AC8220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9003E72076683E4BEDECD24 /* Pods-uberribs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberribs.debug.xcconfig"; path = "Target Support Files/Pods-uberribs/Pods-uberribs.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CB9036219F40E700AC8220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A741229F21A3139A000FDA08 /* Pods_uberribs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CB904A219F40F200AC8220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72DFCEA21A41E9E00B7AB65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A72DFCEB21A41F1800B7AB65 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A73A0E9121A3428C00EC7844 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A73A0E9221A342AD00EC7844 /* RootBuilder.swift */,
+				A72DFCED21A41F4700B7AB65 /* RootComponent+LoggedOut.swift */,
+				A73A0E9321A342AD00EC7844 /* RootInteractor.swift */,
+				A73A0E9421A342AD00EC7844 /* RootRouter.swift */,
+				A73A0E9521A342AD00EC7844 /* RootViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A73A0E9A21A342F700EC7844 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB903C219F40E700AC8220 /* AppDelegate.swift */,
+				A73A0E9B21A344B200EC7844 /* AppComponent.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		A7677D8A21A30FE400E14096 /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				A73A0E8921A31DEF00EC7844 /* LoggedOutBuilder.swift */,
+				A73A0E8A21A31DEF00EC7844 /* LoggedOutInteractor.swift */,
+				A73A0E8B21A31DEF00EC7844 /* LoggedOutRouter.swift */,
+				A73A0E8C21A31DEF00EC7844 /* LoggedOutViewController.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
+		A7CB9030219F40E700AC8220 = {
+			isa = PBXGroup;
+			children = (
+				A7CB9050219F40F200AC8220 /* uberribsTests */,
+				A7CB903B219F40E700AC8220 /* uberribs */,
+				A7CB903A219F40E700AC8220 /* Products */,
+				FA96C5F9732D1D409D9445BB /* Pods */,
+				CB487D1450BECA74A759904C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CB903A219F40E700AC8220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB9039219F40E700AC8220 /* uberribs.app */,
+				A7CB904D219F40F200AC8220 /* uberribsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CB903B219F40E700AC8220 /* uberribs */ = {
+			isa = PBXGroup;
+			children = (
+				A72DFCEA21A41E9E00B7AB65 /* Resources */,
+				A73A0E9A21A342F700EC7844 /* AppStart */,
+				A7677D8A21A30FE400E14096 /* LoggedOut */,
+				A73A0E9121A3428C00EC7844 /* Root */,
+				A7CB9048219F40F200AC8220 /* Info.plist */,
+			);
+			path = uberribs;
+			sourceTree = "<group>";
+		};
+		A7CB9050219F40F200AC8220 /* uberribsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB9051219F40F200AC8220 /* uberribsTests.swift */,
+				A7CB9053219F40F200AC8220 /* Info.plist */,
+			);
+			path = uberribsTests;
+			sourceTree = "<group>";
+		};
+		CB487D1450BECA74A759904C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A711E7A721A318A300267D34 /* RIBs.framework */,
+				A7677D8821A2F90C00E14096 /* Pods */,
+				11E2816E651C94A3C7AB8701 /* Pods_uberribs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA96C5F9732D1D409D9445BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9003E72076683E4BEDECD24 /* Pods-uberribs.debug.xcconfig */,
+				8F08970CDD95F82E43F434C6 /* Pods-uberribs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CB9038219F40E700AC8220 /* uberribs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CB9056219F40F200AC8220 /* Build configuration list for PBXNativeTarget "uberribs" */;
+			buildPhases = (
+				5E3F5DE4CE5508BBA971D67B /* [CP] Check Pods Manifest.lock */,
+				A7CB9035219F40E700AC8220 /* Sources */,
+				A7CB9036219F40E700AC8220 /* Frameworks */,
+				A7CB9037219F40E700AC8220 /* Resources */,
+				DF09FC5A40EE544AD5F5F43D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uberribs;
+			productName = uberribs;
+			productReference = A7CB9039219F40E700AC8220 /* uberribs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CB904C219F40F200AC8220 /* uberribsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CB9059219F40F200AC8220 /* Build configuration list for PBXNativeTarget "uberribsTests" */;
+			buildPhases = (
+				A7CB9049219F40F200AC8220 /* Sources */,
+				A7CB904A219F40F200AC8220 /* Frameworks */,
+				A7CB904B219F40F200AC8220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CB904F219F40F200AC8220 /* PBXTargetDependency */,
+			);
+			name = uberribsTests;
+			productName = uberribsTests;
+			productReference = A7CB904D219F40F200AC8220 /* uberribsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CB9031219F40E700AC8220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = irvem;
+				TargetAttributes = {
+					A7CB9038219F40E700AC8220 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A7CB904C219F40F200AC8220 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A7CB9038219F40E700AC8220;
+					};
+				};
+			};
+			buildConfigurationList = A7CB9034219F40E700AC8220 /* Build configuration list for PBXProject "uberribs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CB9030219F40E700AC8220;
+			productRefGroup = A7CB903A219F40E700AC8220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CB9038219F40E700AC8220 /* uberribs */,
+				A7CB904C219F40F200AC8220 /* uberribsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CB9037219F40E700AC8220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72DFCEC21A41F1800B7AB65 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CB904B219F40F200AC8220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E3F5DE4CE5508BBA971D67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uberribs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF09FC5A40EE544AD5F5F43D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uberribs/Pods-uberribs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RIBs/RIBs.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RIBs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uberribs/Pods-uberribs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CB9035219F40E700AC8220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73A0E9921A342AD00EC7844 /* RootViewController.swift in Sources */,
+				A73A0E9621A342AD00EC7844 /* RootBuilder.swift in Sources */,
+				A73A0E9021A31DEF00EC7844 /* LoggedOutViewController.swift in Sources */,
+				A73A0E8F21A31DEF00EC7844 /* LoggedOutRouter.swift in Sources */,
+				A73A0E9821A342AD00EC7844 /* RootRouter.swift in Sources */,
+				A73A0E9C21A344B200EC7844 /* AppComponent.swift in Sources */,
+				A73A0E8E21A31DEF00EC7844 /* LoggedOutInteractor.swift in Sources */,
+				A7CB903D219F40E700AC8220 /* AppDelegate.swift in Sources */,
+				A73A0E9721A342AD00EC7844 /* RootInteractor.swift in Sources */,
+				A72DFCEE21A41F4700B7AB65 /* RootComponent+LoggedOut.swift in Sources */,
+				A73A0E8D21A31DEF00EC7844 /* LoggedOutBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CB9049219F40F200AC8220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CB9052219F40F200AC8220 /* uberribsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CB904F219F40F200AC8220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CB9038219F40E700AC8220 /* uberribs */;
+			targetProxy = A7CB904E219F40F200AC8220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7CB9054219F40F200AC8220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7CB9055219F40F200AC8220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7CB9057219F40F200AC8220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9003E72076683E4BEDECD24 /* Pods-uberribs.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				INFOPLIST_FILE = uberribs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.uberribs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A7CB9058219F40F200AC8220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F08970CDD95F82E43F434C6 /* Pods-uberribs.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				INFOPLIST_FILE = uberribs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.uberribs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A7CB905A219F40F200AC8220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				INFOPLIST_FILE = uberribsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.uberribsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uberribs.app/uberribs";
+			};
+			name = Debug;
+		};
+		A7CB905B219F40F200AC8220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Y3U7L4DFL;
+				INFOPLIST_FILE = uberribsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.uberribsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uberribs.app/uberribs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CB9034219F40E700AC8220 /* Build configuration list for PBXProject "uberribs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CB9054219F40F200AC8220 /* Debug */,
+				A7CB9055219F40F200AC8220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CB9056219F40F200AC8220 /* Build configuration list for PBXNativeTarget "uberribs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CB9057219F40F200AC8220 /* Debug */,
+				A7CB9058219F40F200AC8220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CB9059219F40F200AC8220 /* Build configuration list for PBXNativeTarget "uberribsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CB905A219F40F200AC8220 /* Debug */,
+				A7CB905B219F40F200AC8220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CB9031219F40E700AC8220 /* Project object */;
+}
