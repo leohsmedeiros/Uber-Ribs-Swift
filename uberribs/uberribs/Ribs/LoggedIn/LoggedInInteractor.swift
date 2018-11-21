@@ -1,27 +1,9 @@
-//
-//  LoggedInInteractor.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 import RxSwift
 
 enum PlayerType: Int {
     case player1 = 1
     case player2
-}
-
-protocol LoggedInRouting: Routing {
-    func cleanupViews()
-    func routeToTicTacToe()
-    func routeToOffGame()
-}
-
-protocol LoggedInListener: class {
-    // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
 }
 
 final class LoggedInInteractor: Interactor, LoggedInInteractable {

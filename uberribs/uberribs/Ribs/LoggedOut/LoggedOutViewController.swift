@@ -1,24 +1,8 @@
-//
-//  LoggedOutViewController.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 19/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 import RxSwift
 import UIKit
 import SnapKit
 
-
-protocol LoggedOutPresentableListener: class {
-    // TODO: Declare properties and methods that the view controller can invoke to perform
-    // business logic, such as signIn(). This protocol is implemented by the corresponding
-    // interactor class.
-    
-    func login(withPlayer1Name player1Name: String?, player2Name: String?)
-}
 
 //  The LoggedOutViewController uses LoggedOutPresentableListener to communicate with its interactor following the same dependency inversion principle.
 

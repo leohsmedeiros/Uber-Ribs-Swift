@@ -12,10 +12,6 @@ import RxSwift
 import SnapKit
 import UIKit
 
-protocol OffGamePresentableListener: class {
-    func startGame()
-}
-
 final class OffGameViewController: UIViewController, OffGamePresentable, OffGameViewControllable {
     
     weak var listener: OffGamePresentableListener?

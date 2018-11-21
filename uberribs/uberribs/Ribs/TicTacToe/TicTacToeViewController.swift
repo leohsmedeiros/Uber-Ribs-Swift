@@ -1,19 +1,6 @@
-//
-//  TicTacToeViewController.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 import SnapKit
 import UIKit
-
-protocol TicTacToePresentableListener: class {
-    func placeCurrentPlayerMark(atRow row: Int, col: Int)
-    func closeGame()
-}
 
 final class TicTacToeViewController: UIViewController, TicTacToePresentable, TicTacToeViewControllable {
     

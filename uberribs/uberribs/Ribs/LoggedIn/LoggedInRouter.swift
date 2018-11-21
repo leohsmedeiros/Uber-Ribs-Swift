@@ -1,22 +1,4 @@
-//
-//  LoggedInRouter.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
-
-protocol LoggedInInteractable: Interactable, OffGameListener, TicTacToeListener {
-    var router: LoggedInRouting? { get set }
-    var listener: LoggedInListener? { get set }
-}
-
-protocol LoggedInViewControllable: ViewControllable {
-    func present(viewController: ViewControllable)
-    func dismiss(viewController: ViewControllable)
-}
 
 final class LoggedInRouter: Router<LoggedInInteractable>, LoggedInRouting {
     

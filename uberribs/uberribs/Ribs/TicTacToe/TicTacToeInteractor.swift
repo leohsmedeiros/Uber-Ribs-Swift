@@ -1,27 +1,5 @@
-//
-//  TicTacToeInteractor.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 import RxSwift
-
-protocol TicTacToeRouting: ViewableRouting {
-    // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
-}
-
-protocol TicTacToePresentable: Presentable {
-    var listener: TicTacToePresentableListener? { get set }
-    func setCell(atRow row: Int, col: Int, withPlayerType playerType: PlayerType)
-    func announce(winner: PlayerType)
-}
-
-protocol TicTacToeListener: class {
-    func gameDidEnd()
-}
 
 final class TicTacToeInteractor: PresentableInteractor<TicTacToePresentable>, TicTacToeInteractable, TicTacToePresentableListener {
     

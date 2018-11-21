@@ -1,28 +1,10 @@
-//
-//  LoggedOutBuilder.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 19/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 
-protocol LoggedOutDependency: Dependency {
-    // TODO: Declare the set of dependencies required by this RIB, but cannot be
-    // created by this RIB.
-}
-
 final class LoggedOutComponent: Component<LoggedOutDependency> {
-    
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
 }
 
 // MARK: - Builder
-protocol LoggedOutBuildable: Buildable {
-    func build(withListener listener: LoggedOutListener) -> LoggedOutRouting
-}
-
 final class LoggedOutBuilder: Builder<LoggedOutDependency>, LoggedOutBuildable {
     
     override init(dependency: LoggedOutDependency) {

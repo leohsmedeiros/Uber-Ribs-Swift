@@ -1,26 +1,5 @@
-//
-//  LoggedOutInteractor.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 19/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 import RxSwift
-
-protocol LoggedOutRouting: ViewableRouting {
-    // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
-}
-
-protocol LoggedOutPresentable: Presentable {
-    var listener: LoggedOutPresentableListener? { get set }
-    // TODO: Declare methods the interactor can invoke the presenter to present data.
-}
-
-protocol LoggedOutListener: class {
-    func didLogin(withPlayer1Name player1Name: String, player2Name: String)
-}
 
 final class LoggedOutInteractor: PresentableInteractor<LoggedOutPresentable>, LoggedOutInteractable, LoggedOutPresentableListener {
     

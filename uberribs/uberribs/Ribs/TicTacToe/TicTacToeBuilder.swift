@@ -1,26 +1,7 @@
-//
-//  TicTacToeBuilder.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 
-protocol TicTacToeDependency: Dependency {
-    // TODO: Declare the set of dependencies required by this RIB, but cannot be
-    // created by this RIB.
-}
-
 final class TicTacToeComponent: Component<TicTacToeDependency> {
-    
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
-}
-
-// MARK: - Builder
-protocol TicTacToeBuildable: Buildable {
-    func build(withListener listener: TicTacToeListener) -> TicTacToeRouting
 }
 
 final class TicTacToeBuilder: Builder<TicTacToeDependency>, TicTacToeBuildable {

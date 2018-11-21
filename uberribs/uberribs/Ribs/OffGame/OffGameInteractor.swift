@@ -1,26 +1,5 @@
-//
-//  OffGameInteractor.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
 import RxSwift
-
-protocol OffGameRouting: ViewableRouting {
-    // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
-}
-
-protocol OffGamePresentable: Presentable {
-    var listener: OffGamePresentableListener? { get set }
-    // TODO: Declare methods the interactor can invoke the presenter to present data.
-}
-
-protocol OffGameListener: class {
-    func startTicTacToe()
-}
 
 final class OffGameInteractor: PresentableInteractor<OffGamePresentable>, OffGameInteractable, OffGamePresentableListener {
     

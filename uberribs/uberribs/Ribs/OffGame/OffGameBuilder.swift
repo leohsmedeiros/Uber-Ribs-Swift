@@ -1,17 +1,4 @@
-//
-//  OffGameBuilder.swift
-//  uberribs
-//
-//  Created by Leonardo Medeiros on 20/11/2018.
-//  Copyright © 2018 irvem. All rights reserved.
-//
-
 import RIBs
-
-protocol OffGameDependency: Dependency {
-    // TODO: Declare the set of dependencies required by this RIB, but cannot be
-    // created by this RIB.
-}
 
 final class OffGameComponent: Component<OffGameDependency> {
     
@@ -19,9 +6,6 @@ final class OffGameComponent: Component<OffGameDependency> {
 }
 
 // MARK: - Builder
-protocol OffGameBuildable: Buildable {
-    func build(withListener listener: OffGameListener) -> OffGameRouting
-}
 
 final class OffGameBuilder: Builder<OffGameDependency>, OffGameBuildable {
     
