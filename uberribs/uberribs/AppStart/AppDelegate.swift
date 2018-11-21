@@ -7,6 +7,7 @@
 //
 
 import RIBs
+import RxSwift
 import UIKit
 
 /// Game app delegate.
@@ -35,6 +36,5 @@ public class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     // MARK: - Private
-    
     private var launchRouter: LaunchRouting?
 }

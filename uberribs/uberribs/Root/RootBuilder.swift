@@ -22,9 +22,7 @@ protocol RootDependency: Dependency {
 }
 
 final class RootComponent: Component<RootDependency> {
-
-    // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
-
+    
     let rootViewController: RootViewController
     
     init(dependency: RootDependency,
@@ -32,21 +30,19 @@ final class RootComponent: Component<RootDependency> {
         self.rootViewController = rootViewController
         super.init(dependency: dependency)
     }
-    
 }
 
 // MARK: - Builder
-
 protocol RootBuildable: Buildable {
     func build() -> LaunchRouting
 }
 
 final class RootBuilder: Builder<RootDependency>, RootBuildable {
-
+    
     override init(dependency: RootDependency) {
         super.init(dependency: dependency)
     }
-
+    
     func build() -> LaunchRouting {
         let viewController = RootViewController()
         let component = RootComponent(dependency: dependency,

@@ -54,6 +54,6 @@ final class LoggedOutViewController: UIViewController, LoggedOutPresentable, Log
         listener?.login(withPlayer1Name: tvPlayer1.text, player2Name: tvPlayer2.text)
     }
 
-    
+    private let disposeBag = DisposeBag()
 }
 

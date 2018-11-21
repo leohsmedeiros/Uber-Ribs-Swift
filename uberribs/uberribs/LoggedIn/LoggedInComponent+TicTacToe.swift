@@ -6,7 +6,7 @@
 //  Copyright © 2018 irvem. All rights reserved.
 //
 
-/*
+
 import RIBs
 
 /// The dependencies needed from the parent scope of LoggedIn to provide for the TicTacToe scope.
@@ -21,4 +21,4 @@ extension LoggedInComponent: TicTacToeDependency {
     
     // TODO: Implement properties to provide for TicTacToe scope.
 }
- */
+
