@@ -37,10 +37,9 @@ protocol RootPresentableListener: class {}
 
 /// The dependencies needed from the parent scope of Root to provide for the LoggedIn scope.
 // TODO: Update RootDependency protocol to inherit this protocol.
-protocol RootDependencyLoggedIn: Dependency {
-    // TODO: Declare dependencies needed from the parent scope of Root to provide dependencies
-    // for the LoggedIn scope.
-}
+// TODO: Declare dependencies needed from the parent scope of Root to provide dependencies
+// for the LoggedIn scope.
+protocol RootDependencyLoggedIn: Dependency {}
 extension RootComponent: LoggedInDependency {
     var loggedInViewController: LoggedInViewControllable {
         return rootViewController
@@ -49,8 +48,7 @@ extension RootComponent: LoggedInDependency {
 
 /// The dependencies needed from the parent scope of Root to provide for the LoggedOut scope.
 // TODO: Update RootDependency protocol to inherit this protocol.
-protocol RootDependencyLoggedOut: Dependency {
-    // TODO: Declare dependencies needed from the parent scope of Root to provide dependencies
-    // for the LoggedOut scope.
-}
-
+// TODO: Declare dependencies needed from the parent scope of Root to provide dependencies
+// for the LoggedOut scope.
+protocol RootDependencyLoggedOut: Dependency {}
+extension RootComponent: LoggedOutDependency {}

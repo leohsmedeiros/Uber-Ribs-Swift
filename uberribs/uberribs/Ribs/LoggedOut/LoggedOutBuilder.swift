@@ -5,6 +5,7 @@ final class LoggedOutComponent: Component<LoggedOutDependency> {
 }
 
 // MARK: - Builder
+
 final class LoggedOutBuilder: Builder<LoggedOutDependency>, LoggedOutBuildable {
     
     override init(dependency: LoggedOutDependency) {

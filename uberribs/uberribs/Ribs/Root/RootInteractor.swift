@@ -8,8 +8,7 @@ final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteract
     
     weak var listener: RootListener?
     
-    // TODO: Add additional dependencies to constructor. Do not perform any logic
-    // in constructor.
+    // TODO: Add additional dependencies to constructor. Do not perform any logic in constructor.
     override init(presenter: RootPresentable) {
         super.init(presenter: presenter)
         presenter.listener = self

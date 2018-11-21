@@ -8,8 +8,13 @@ import SnapKit
 
 final class LoggedOutViewController: UIViewController, LoggedOutPresentable, LoggedOutViewControllable {
 
+    // MARK: - Private
     weak var listener: LoggedOutPresentableListener?
+    @IBOutlet weak var tvPlayer1: UITextField!
+    @IBOutlet weak var tvPlayer2: UITextField!
+    @IBOutlet weak var btnConfirm: UIButton!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -17,11 +22,6 @@ final class LoggedOutViewController: UIViewController, LoggedOutPresentable, Log
         buildLoginButton(withPlayer1Field: playerFields.player1Field, player2Field: playerFields.player2Field)
     }
     
-    // MARK: - Private
-
-    @IBOutlet weak var tvPlayer1: UITextField!
-    @IBOutlet weak var tvPlayer2: UITextField!
-    @IBOutlet weak var btnConfirm: UIButton!
     
     
     private func buildPlayerFields() -> (player1Field: UITextField, player2Field: UITextField) {

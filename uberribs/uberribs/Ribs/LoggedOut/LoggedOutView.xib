@@ -12,9 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoggedOutViewController" customModule="uberribs">
             <connections>
-                <outlet property="btnConfirm" destination="cdh-bM-Jg2" id="dZu-HD-iGQ"/>
-                <outlet property="tvPlayer1" destination="Eau-SV-lMf" id="dNh-5p-ds8"/>
-                <outlet property="tvPlayer2" destination="hfA-P6-pe0" id="TYQ-hV-gQB"/>
+                <outlet property="btnConfirm" destination="cdh-bM-Jg2" id="uAM-nk-jTH"/>
+                <outlet property="tvPlayer1" destination="Eau-SV-lMf" id="fxp-pL-kee"/>
+                <outlet property="tvPlayer2" destination="hfA-P6-pe0" id="PAJ-iC-kme"/>
                 <outlet property="view" destination="iN0-l3-epB" id="FtP-dL-mi4"/>
             </connections>
         </placeholder>

@@ -32,4 +32,3 @@ protocol LoggedOutListener: class {
 protocol LoggedOutPresentableListener: class {
     func login(withPlayer1Name player1Name: String?, player2Name: String?)
 }
-

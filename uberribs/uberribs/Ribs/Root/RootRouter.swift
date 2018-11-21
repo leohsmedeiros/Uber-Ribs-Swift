@@ -8,10 +8,9 @@ final class RootRouter: LaunchRouter<RootInteractable, RootViewControllable>, Ro
     private var loggedOut: ViewableRouting?
 
     
-    init(interactor: RootInteractable,
-         viewController: RootViewControllable,
-         loggedOutBuilder: LoggedOutBuildable,
-         loggedInBuilder: LoggedInBuildable) {
+    init(interactor: RootInteractable, viewController: RootViewControllable,
+         loggedOutBuilder: LoggedOutBuildable, loggedInBuilder: LoggedInBuildable)
+    {
         self.loggedOutBuilder = loggedOutBuilder
         self.loggedInBuilder = loggedInBuilder
         super.init(interactor: interactor, viewController: viewController)
@@ -20,7 +19,6 @@ final class RootRouter: LaunchRouter<RootInteractable, RootViewControllable>, Ro
     
     override func didLoad() {
         super.didLoad()
-        
         routeToLoggedOut()
     }
     

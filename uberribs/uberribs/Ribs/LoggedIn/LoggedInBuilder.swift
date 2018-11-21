@@ -1,14 +1,12 @@
 import RIBs
 
 final class LoggedInComponent: Component<LoggedInDependency> {
-    
     fileprivate var loggedInViewController: LoggedInViewControllable {
         return dependency.loggedInViewController
     }
 }
 
-final class LoggedInBuilder: Builder<LoggedInDependency>, LoggedInBuildable {
-    
+final class LoggedInBuilder: Builder<LoggedInDependency>, LoggedInBuildable {    
     override init(dependency: LoggedInDependency) {
         super.init(dependency: dependency)
     }

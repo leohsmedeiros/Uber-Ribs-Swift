@@ -2,10 +2,6 @@ import Foundation
 import RIBs
 
 
-protocol LoggedInViewControllable: ViewControllable {
-    func present(viewController: ViewControllable)
-    func dismiss(viewController: ViewControllable)
-}
 protocol LoggedInRouting: Routing {
     func cleanupViews()
     func routeToTicTacToe()
@@ -17,6 +13,10 @@ protocol LoggedInInteractable: Interactable, OffGameListener, TicTacToeListener 
 }
 protocol LoggedInBuildable: Buildable {
     func build(withListener listener: LoggedInListener) -> LoggedInRouting
+}
+protocol LoggedInViewControllable: ViewControllable {
+    func present(viewController: ViewControllable)
+    func dismiss(viewController: ViewControllable)
 }
 
 

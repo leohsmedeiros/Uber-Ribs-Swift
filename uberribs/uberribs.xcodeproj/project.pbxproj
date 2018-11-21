@@ -209,8 +209,8 @@
 		A7CB903B219F40E700AC8220 /* uberribs */ = {
 			isa = PBXGroup;
 			children = (
-				A7D02CA121A5B4AB0012FA53 /* Ribs */,
 				A73A0E9A21A342F700EC7844 /* AppStart */,
+				A7D02CA121A5B4AB0012FA53 /* Ribs */,
 				A72DFCEA21A41E9E00B7AB65 /* Resources */,
 				A7CB9048219F40F200AC8220 /* Info.plist */,
 			);
@@ -415,8 +415,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D02CA021A5B0550012FA53 /* TicTacToeProtocols.swift in Sources */,
-				A73A0E9921A342AD00EC7844 /* RootViewController.swift in Sources */,
 				A72DFD1521A497C700B7AB65 /* TicTacToeInteractor.swift in Sources */,
+				A72DFD1421A497C700B7AB65 /* TicTacToeBuilder.swift in Sources */,
+				A73A0E9921A342AD00EC7844 /* RootViewController.swift in Sources */,
 				A73A0E9621A342AD00EC7844 /* RootBuilder.swift in Sources */,
 				A72DFCFC21A4870600B7AB65 /* LoggedInInteractor.swift in Sources */,
 				A7D02C9C21A59C590012FA53 /* LoggedInProtocols.swift in Sources */,
@@ -426,7 +427,6 @@
 				A72DFCFB21A4870600B7AB65 /* LoggedInBuilder.swift in Sources */,
 				A7D02C9E21A5ADFE0012FA53 /* OffGameProtocols.swift in Sources */,
 				A73A0E9821A342AD00EC7844 /* RootRouter.swift in Sources */,
-				A72DFD1421A497C700B7AB65 /* TicTacToeBuilder.swift in Sources */,
 				A7D02C9A21A596440012FA53 /* LoggedOutProtocols.swift in Sources */,
 				A72DFD1721A497C700B7AB65 /* TicTacToeViewController.swift in Sources */,
 				A7D02C9821A5924E0012FA53 /* RootProtocols.swift in Sources */,
