@@ -36,12 +36,14 @@ final class TicTacToeInteractor: PresentableInteractor<TicTacToePresentable>, Ti
         presenter.setCell(atRow: row, col: col, withPlayerType: currentPlayer)
         
         if let winner = checkWinner() {
-            presenter.announce(winner: winner)
+            presenter.announce(winner: winner) {
+                self.listener?.gameDidEnd(withWinner: winner)
+            }
         }
     }
     
     func closeGame() {
-        listener?.gameDidEnd()
+        listener?.gameDidEnd(withWinner: checkWinner())
     }
     
     // MARK: - Private

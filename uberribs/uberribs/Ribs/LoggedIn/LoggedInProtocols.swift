@@ -12,7 +12,7 @@ protocol LoggedInInteractable: Interactable, OffGameListener, TicTacToeListener 
     var listener: LoggedInListener? { get set }
 }
 protocol LoggedInBuildable: Buildable {
-    func build(withListener listener: LoggedInListener) -> LoggedInRouting
+    func build(withListener listener: LoggedInListener, player1Name: String, player2Name: String) -> LoggedInRouting
 }
 protocol LoggedInViewControllable: ViewControllable {
     func present(viewController: ViewControllable)
@@ -38,6 +38,10 @@ protocol LoggedInDependencyOffGame: Dependency {
     // for the OffGame scope.
 }
 extension LoggedInComponent: OffGameDependency {
+    var scoreStream: ScoreStream {
+        return mutableScoreStream
+    }
+    
     // TODO: Implement properties to provide for OffGame scope.
 }
 

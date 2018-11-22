@@ -35,6 +35,7 @@
 		A73A0E9921A342AD00EC7844 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9521A342AD00EC7844 /* RootViewController.swift */; };
 		A73A0E9C21A344B200EC7844 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A0E9B21A344B200EC7844 /* AppComponent.swift */; };
 		A741229F21A3139A000FDA08 /* Pods_uberribs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E2816E651C94A3C7AB8701 /* Pods_uberribs.framework */; };
+		A777E38E21A7594600B345BA /* ScoreStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A777E38D21A7594600B345BA /* ScoreStream.swift */; };
 		A7CB903D219F40E700AC8220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB903C219F40E700AC8220 /* AppDelegate.swift */; };
 		A7D02C9821A5924E0012FA53 /* RootProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D02C9721A5924E0012FA53 /* RootProtocols.swift */; };
 		A7D02C9A21A596440012FA53 /* LoggedOutProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D02C9921A596440012FA53 /* LoggedOutProtocols.swift */; };
@@ -90,6 +91,7 @@
 		A73A0E9521A342AD00EC7844 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		A73A0E9B21A344B200EC7844 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		A7677D8821A2F90C00E14096 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		A777E38D21A7594600B345BA /* ScoreStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStream.swift; sourceTree = "<group>"; };
 		A7CB9039219F40E700AC8220 /* uberribs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uberribs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CB903C219F40E700AC8220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7CB9048219F40F200AC8220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				A72DFCF821A4870600B7AB65 /* LoggedInRouter.swift */,
 				A72DFCF721A4870600B7AB65 /* LoggedInInteractor.swift */,
 				A72DFCF621A4870600B7AB65 /* LoggedInBuilder.swift */,
+				A777E38D21A7594600B345BA /* ScoreStream.swift */,
 			);
 			path = LoggedIn;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				A73A0E9C21A344B200EC7844 /* AppComponent.swift in Sources */,
 				A73A0E8E21A31DEF00EC7844 /* LoggedOutInteractor.swift in Sources */,
 				A72DFD0E21A4979600B7AB65 /* OffGameViewController.swift in Sources */,
+				A777E38E21A7594600B345BA /* ScoreStream.swift in Sources */,
 				A72DFD1621A497C700B7AB65 /* TicTacToeRouter.swift in Sources */,
 				A72DFCFD21A4870600B7AB65 /* LoggedInRouter.swift in Sources */,
 				A7CB903D219F40E700AC8220 /* AppDelegate.swift in Sources */,

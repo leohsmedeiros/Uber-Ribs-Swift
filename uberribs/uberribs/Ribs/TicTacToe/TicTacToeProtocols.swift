@@ -20,12 +20,11 @@ protocol TicTacToeDependency: Dependency {}
 protocol TicTacToePresentable: Presentable {
     var listener: TicTacToePresentableListener? { get set }
     func setCell(atRow row: Int, col: Int, withPlayerType playerType: PlayerType)
-    func announce(winner: PlayerType)
+    func announce(winner: PlayerType?, withCompletionHandler handler: @escaping () -> ())
 }
 protocol TicTacToeListener: class {
-    func gameDidEnd()
+    func gameDidEnd(withWinner winner: PlayerType?)
 }
 protocol TicTacToePresentableListener: class {
-    func placeCurrentPlayerMark(atRow row: Int, col: Int)
-    func closeGame()
+    func placeCurrentPlayerMark(atRow row: Int, col: Int)    
 }
