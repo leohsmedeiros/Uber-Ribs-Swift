@@ -39,6 +39,10 @@ final class TicTacToeInteractor: PresentableInteractor<TicTacToePresentable>, Ti
             presenter.announce(winner: winner) {
                 self.listener?.gameDidEnd(withWinner: winner)
             }
+        }else if isBoardFullFilled() {
+            presenter.announce(winner: nil) {
+                self.listener?.gameDidEnd(withWinner: nil)
+            }
         }
     }
     
@@ -62,6 +66,17 @@ final class TicTacToeInteractor: PresentableInteractor<TicTacToePresentable>, Ti
         return currentPlayer
     }
     
+    private func isBoardFullFilled () -> Bool {
+        for row in 0..<GameConstants.rowCount {
+            for col in 0..<GameConstants.colCount {
+                if board[row][col] == nil {
+                    return false
+                }
+            }
+        }
+        return true
+    }
+ 
     private func checkWinner() -> PlayerType? {
         // Rows.
         for row in 0..<GameConstants.rowCount {
