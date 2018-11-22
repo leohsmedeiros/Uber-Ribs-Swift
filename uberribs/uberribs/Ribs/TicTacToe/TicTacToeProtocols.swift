@@ -16,7 +16,10 @@ protocol TicTacToeViewControllable: ViewControllable {}
 
 
 // TODO: Declare the set of dependencies required by this RIB, but cannot be created by this RIB.
-protocol TicTacToeDependency: Dependency {}
+protocol TicTacToeDependency: Dependency {
+    var player1Name: String { get }
+    var player2Name: String { get }
+}
 protocol TicTacToePresentable: Presentable {
     var listener: TicTacToePresentableListener? { get set }
     func setCell(atRow row: Int, col: Int, withPlayerType playerType: PlayerType)
